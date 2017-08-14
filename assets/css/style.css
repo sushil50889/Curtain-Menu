@@ -1,9 +1,8 @@
 @charset "utf-8";
-
 @font-face { font-family: Cabin-Regular; src: url('../fonts/Cabin/Cabin-Regular.ttf'); }
 @font-face { font-family: Cabin-Bold; src: url('../fonts/Cabin/Cabin-Bold.ttf'); }
 @font-face { font-family: AnticSlab-Regular; src: url('../fonts/Antic_Slab/AnticSlab-Regular.ttf'); }
-/* CSS Document */
+
 html,body{
 	width: 100%;
 	margin: 0 auto;
@@ -78,6 +77,7 @@ nav{
 }
 
 .curtain, .curtain-2, .curtain-3, .curtain-4{
+	position: absolute;
 	width: 100%;
 	background-color: #e8e8e8;
 	border: none;

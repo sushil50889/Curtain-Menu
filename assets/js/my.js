@@ -6,7 +6,9 @@ $(document).ready(function(){
 		$(".curtain-2").hide();
 		$(".curtain-3").hide();
 		$(".curtain-4").hide();
-		$(".curtain").show();
+		$(".curtain").slideDown(400, function(){
+			$(this).show();
+		});
 	});
 		
 //	show curtain 2
@@ -14,7 +16,9 @@ $(document).ready(function(){
 		$(".curtain").hide();
 		$(".curtain-3").hide();
 		$(".curtain-4").hide();
-		$(".curtain-2").show();
+		$(".curtain-2").slideDown(400, function(){
+			$(this).show();
+		});
 	});
 		
 //	show curtain 3
@@ -22,7 +26,9 @@ $(document).ready(function(){
 		$(".curtain-2").hide();
 		$(".curtain").hide();
 		$(".curtain-4").hide();
-		$(".curtain-3").show();
+		$(".curtain-3").slideDown(400, function(){
+			$(this).show();
+		});
 	});
 		
 //	show curtain 4
@@ -30,7 +36,9 @@ $(document).ready(function(){
 		$(".curtain-2").hide();
 		$(".curtain-3").hide();
 		$(".curtain").hide();
-		$(".curtain-4").show();
+		$(".curtain-4").slideDown(400, function(){
+			$(this).show();
+		});
 	});
 	
 	
